@@ -41,3 +41,8 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
   alert("Thank you for your message! I will get back to you soon.");
   this.reset();
 });
+
+document.getElementById('menuToggle').addEventListener('click', () => {
+  const menu = document.getElementById('mobileMenu');
+  menu.classList.toggle('hidden');
+});
