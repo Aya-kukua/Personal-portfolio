@@ -42,16 +42,18 @@
 
   <!-- Hero Section -->
   <section class="h-screen flex items-center justify-center bg-[url(./images/code.jpg)]  bg-cover bg-center " id="hero">
-    <div
-      class="absolute top-1/2 left-1/2 transform -translate-y-1/2 translate-x-8 w-11/12 md:w-[450px] backdrop-blur-md bg-white/20 p-6 rounded-lg shadow-lg text-right">
-      <h2 class="text-4xl font-bold mb-4 text-gray-800 italic">Hi, I'm Genevieve</h2>
-      <p class="text-lg mb-6 text-gray-800 leading-relaxed font-bold italic">
-        A passionate Frontend Developer skilled in<br class="hidden md:block">
-        HTML, CSS, JavaScript, and React.
-      </p>
-      <a href="#projects" class="bg-pink-400 text-gray-800 px-6 py-3 rounded hover:bg-pink-500 place-self-center">View
-        My Work</a>
-    </div>
+  <div
+  class="absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 w-11/12 max-w-md md:max-w-[450px] backdrop-blur-md bg-white/20 p-6 rounded-lg shadow-lg text-center md:text-right">
+  <h2 class="text-3xl md:text-4xl font-bold mb-4 text-gray-800 italic">Hi, I'm Genevieve</h2>
+  <p class="text-base md:text-lg mb-6 text-gray-800 leading-relaxed font-bold italic">
+    A passionate Frontend Developer skilled in<br class="hidden md:block" />
+    HTML, CSS, JavaScript, and React.
+  </p>
+  <a href="#projects" class="bg-pink-400 text-gray-800 px-6 py-3 rounded hover:bg-pink-500 inline-block">
+    View My Work
+  </a>
+</div>
+
   </section>
 
 
@@ -174,26 +176,34 @@
     </a>
   </section>
 
- <!-- Contact Section -->
+<!-- Contact Section -->
 <section id="contact" class="py-20 px-4 bg-pink-50">
-  <div class="container mx-auto text-center">
+  <div class="container mx-auto text-center max-w-md mx-auto">
     <h3 class="text-3xl font-semibold mb-6 text-gray-800">Contact Me</h3>
     <p class="text-lg mb-6 text-gray-700">I'd love to connect with you! You can reach me through:</p>
 
     <div class="space-y-4 text-lg text-gray-700">
-      <p><strong><i class="fa-solid fa-envelope"></i></strong> <a href="mailto:ayakukua001@gmail.com" class="text-pink-500 hover:text-pink-600">ayakukua001@gmail.com</a></p>
-      <p><strong><i class="fa-solid fa-phone"></i></strong> <a href="tel:+233XXXXXXXXX" class="text-pink-500 hover:text-pink-600">+233 55 718 8117
+      <p class="flex items-center justify-center space-x-3">
+        <i class="fa-solid fa-envelope text-pink-500"></i>
+        <a href="mailto:ayakukua001@gmail.com" class="text-pink-500 hover:text-pink-600 break-words">
+          ayakukua001@gmail.com
+        </a>
+      </p>
 
-        
-      </a></p>
+      <p class="flex items-center justify-center space-x-3">
+        <i class="fa-solid fa-phone text-pink-500"></i>
+        <a href="tel:+233557188117" class="text-pink-500 hover:text-pink-600">
+          +233 55 718 8117
+        </a>
+      </p>
 
-      <div class="flex justify-center space-x-6 mt-6 text-pink-500">
+      <div class="flex justify-center space-x-8 mt-6 text-pink-500 text-2xl">
         <!-- GitHub -->
         <a href="https://github.com/Aya-kukua" target="_blank" aria-label="GitHub" class="hover:text-pink-600">
-<i class="fa-brands fa-github"></i>
+          <i class="fa-brands fa-github"></i>
         </a>
         <!-- LinkedIn -->
-        <a href="linkedin.com/in/genevieve-djan" target="_blank" aria-label="LinkedIn" class="hover:text-pink-600">
+        <a href="https://linkedin.com/in/genevieve-djan" target="_blank" aria-label="LinkedIn" class="hover:text-pink-600">
           <i class="fa-brands fa-linkedin"></i>
         </a>
         <!-- Twitter -->
@@ -204,6 +214,7 @@
     </div>
   </div>
 </section>
+
 
 
 </body>
